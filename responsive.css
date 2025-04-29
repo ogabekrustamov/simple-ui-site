@@ -1,0 +1,107 @@
+@media (max-width: 1140px) {
+    .header-text h1 {
+      font-size: 28px;
+    }
+    .features{
+      height: 600px;
+    }
+    .grid-container{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto;
+      gap: 20px;
+    }
+    .item{
+      width: 400px;
+      height: 110px;
+      background-color: white;
+      border-radius: 20px;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+    .item-text{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: left;
+  
+    }
+  .item-text h2{
+      color: rgb(71,74,86);
+      font-size: 22px;
+      letter-spacing: -0.01;
+  }
+  
+  .item-text p{
+      color: rgb(103 109 119);
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      text-align: start;
+  }
+
+  /* next section */
+  .grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto auto auto;
+    gap: 30px;
+  }
+  .large{
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .lgsize img{
+    width: 530px;
+    height: 210px;
+    border-radius: 4px;
+  }
+  .large2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  
+  .large3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+  }
+  .item2 img,
+  .large img,
+  .large2 img,
+  .large3 img {
+    width: 100%;
+    display: block;
+  }
+
+  .services{
+    height: 800px;
+  }
+  .grid-container3{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+  }
+  .box1{
+    background-color: white;
+    width: 400px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-container4{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 210;
+    gap: 20px;
+  }
+  .box2{
+    width: 310px;
+    height: 190px;
+    padding-left: 25px;
+    margin-bottom: 32px;
+  }
+  .gorizontal-flex{
+    width: 960px;
+  }
+  }
